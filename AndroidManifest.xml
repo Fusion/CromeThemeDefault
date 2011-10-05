@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.voilaweb.mobile.crometheme.def">
+    <application android:icon="@drawable/icon" android:label="CromeThemeDefault">
+        <activity android:name=".Theme"
+                  android:label="@string/theme_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.voilaweb.mobile.crome.THEMES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

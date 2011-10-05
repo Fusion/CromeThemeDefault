@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="theme_title">ADWTheme Template</string>
+<integer name="preferences_layout_columns">3</integer>
