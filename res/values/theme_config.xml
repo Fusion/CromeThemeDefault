@@ -3,15 +3,17 @@
 These are the values that you can use to define a theme file for the Crome Launcher.
 Note that more preferences will likely be made available later:
 
-            key                 |default|            description
+            key                 | default|            description
 ................................+.......+..........................................
-preferences_layout_columns      |     3 | # of columns per row
-preferences_layout_sidemargin   |     0 | pixels margin for each side
-preferences_layout_topmargin    |     0 | pixels margin (top only)
-preferences_layout_padding      |     4 | pixels padding between cells
-preferences_scroller_thickness  |     2 | scroll bar thickness (0 = invisible)
+preferences_layout_columns      |      3 | # of columns per row
+preferences_layout_sidemargin   |      0 | pixels margin for each side
+preferences_layout_topmargin    |      0 | pixels margin (top only)
+preferences_layout_padding      |      4 | pixels padding between cells
+preferences_scroller_thickness  |      2 | scroll bar thickness (0 = invisible)
+preferences_scroller_color      |00FFFFFF| scroll bar color (alpha 0 = theme)
 -->
 <resources>
 <integer name="preferences_layout_columns">3</integer>
+<integer name="preferences_layout_padding">1</integer>
 <string name="preferences_scroller_color">#FF7F7F7F</string>
 </resources>
