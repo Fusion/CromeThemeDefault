@@ -13,4 +13,5 @@ preferences_scroller_thickness  |     2 | scroll bar thickness (0 = invisible)
 -->
 <resources>
 <integer name="preferences_layout_columns">3</integer>
+<string name="preferences_scroller_color">#FF7F7F7F</string>
 </resources>
